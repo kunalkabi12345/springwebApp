@@ -5,15 +5,26 @@ public class Customer {
 	private int custNo;
 	private String name;
 	private String country;
+	private long phoneno;
 	
+	public long getPhoneno() {
+		return phoneno;
+	}
+
+
+	public void setPhoneno(long phoneno) {
+		this.phoneno = phoneno;
+	}
+
 	public Customer() {
 		
 	}
 	
-	public Customer(int custNumber, String name, String country) {
+	public Customer(int custNumber, String name, String country, long phoneno) {
 		this.custNo = custNumber;
 		this.name = name;
 		this.country = country;
+		this.phoneno=phoneno;
 	}
 
 	public int getCustNo() {

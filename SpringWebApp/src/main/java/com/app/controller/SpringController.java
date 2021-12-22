@@ -17,6 +17,7 @@ public class SpringController {
 		cust.setCustNo(10011);
 		cust.setName("Madhavi");
 		cust.setCountry("United States");
+		cust.setPhoneno(9134206543l);
 		
 		return cust;
 	}
